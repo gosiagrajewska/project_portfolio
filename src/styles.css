@@ -1,21 +1,42 @@
-/*  
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
+:root {
+  --primary-color: #fff961;
+  --secondary-color: #2c9f9b;
+  --tertiary-color: #67d5d2;
+  --quarternary-color: #e5e5e5;
+  --basic-color: #272142;
+  --font-heading: "Playball", cursive;
+  --font-text: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: var(--font-heading);
+  font-size: 96px;
+}
+h2 {
+  font-family: var(--font-text);
   font-weight: 400;
-  font-style: normal;
+  font-size: 24px;
+  color: var(--basic-color);
 }
+.hero {
+  background-color: var(--primary-color);
 
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 160px 20px;
+}
+.btn-branding {
+  background: var(--secondary-color);
+  color: white;
+  border-radius: 4px;
+  padding: 18px 50px;
+  font-family: var(--font-text);
   font-weight: 500;
-  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
 }
 
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+@media (max-width: 576px) {
+  h1 {
+    font-size: 66px;
+  }
 }
-
-
-*/
