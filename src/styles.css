@@ -2,21 +2,40 @@
   --primary-color: #fff961;
   --secondary-color: #2c9f9b;
   --tertiary-color: #67d5d2;
-  --quarternary-color: #e5e5e5;
+  --quarternary-color: #f9f9f9;
   --basic-color: #272142;
   --font-heading: "Playball", cursive;
   --font-text: "Poppins", sans-serif;
 }
-
+main {
+  background-color: var(--quarternary-color);
+  margin-top: 150px;
+}
 h1 {
   font-family: var(--font-heading);
   font-size: 96px;
 }
 h2 {
+  font-family: var(--font-heading);
+  font-size: 64px;
+}
+h3 {
   font-family: var(--font-text);
   font-weight: 400;
   font-size: 24px;
   color: var(--basic-color);
+}
+p {
+  font-family: var(--font-text);
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(33, 36, 64, 0.7);
+}
+img {
+  max-width: 100%;
+  height: auto;
+
+  padding-top: 100px;
 }
 .hero {
   background-color: var(--primary-color);
@@ -34,9 +53,53 @@ h2 {
   font-size: 18px;
   line-height: 27px;
 }
+.btn-launch {
+  background: none;
+  color: var(--tertiary-color);
+  border-color: var(--tertiary-color);
+  border-radius: 4px;
+  padding: 18px 50px;
+  font-family: var(--font-text);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.subtitle {
+  font-family: var(--font-text);
+  font-size: 48px;
+  font-weight: bold;
+  padding: 70px 0;
+  color: var(--basic-color);
+}
+.project {
+  padding-top: 30px;
+}
+.project-description {
+  padding: 50px 30px;
+}
 
 @media (max-width: 576px) {
   h1 {
     font-size: 66px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  main {
+    margin-top: 50px;
+  }
+  .hero {
+    padding: 70px 20px;
+  }
+  .subtitle {
+    line-height: 1.5;
+    padding: 30px 0;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+  .btn-launch {
+    width: 100%;
   }
 }
