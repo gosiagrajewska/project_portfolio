@@ -80,7 +80,7 @@ img {
 }
 .inquiry {
   display: block;
-  margin: 50px auto;
+  margin: 20px auto;
   max-width: 80%;
   background-color: var(--primary-color);
   border-radius: 10px;
@@ -89,10 +89,7 @@ img {
 .inquiry h2 {
   font-size: 48px;
 }
-.inquiry-layout {
-  display: flex;
-  justify-content: space-between;
-}
+
 .mail {
   text-align: center;
   font-family: var(--font-text);
@@ -129,5 +126,19 @@ img {
   }
   .btn-launch {
     width: 100%;
+  }
+
+  .btn-branding {
+    padding: 18px 5px;
+  }
+}
+
+@media (max-width: 992px) {
+  .inquiry {
+    text-align: center;
+  }
+  .inquiry h2 {
+    font-size: 36px;
+    padding-bottom: 20px;
   }
 }
