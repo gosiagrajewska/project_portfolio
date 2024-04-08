@@ -103,6 +103,20 @@ img {
   font-size: 40px;
   color: var(--tertiary-color);
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.about-section h3 {
+  font-size: 18px;
+}
+.about-section-content {
+  margin: 30px;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 66px;
@@ -130,6 +144,12 @@ img {
 
   .btn-branding {
     padding: 18px 5px;
+  }
+  .about-section {
+    padding: 70px 20px;
+  }
+  .about-section-content {
+    text-align: center;
   }
 }
 
