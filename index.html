@@ -30,16 +30,30 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="background">
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+          <img src="/src/images/logo.png" class="logo" alt="logo" />
+          <ul>
+            <li class="active"><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/work.html">Work</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <div class="hero">
       <h1>Małgorzata Grajewska</h1>
       <h3 class="mt-5 mb-5">Frontend Developer, based in the Netherlands</h3>
-      <div><a href="#" class="btn btn-branding">Get started</a></div>
+      <div>
+        <a href="#projects" class="btn btn-branding">See my projects</a>
+      </div>
+      <i class="fa-solid fa-angles-down icon"></i>
     </div>
-    <a href="/about.html">Go to about me page</a>
-    <a href="/work.html">Go to work page</a>
-    <a href="/contact.html">Go to contact page</a>
+
     <main>
-      <p class="text-center mt-5 subtitle">Recent projects</p>
+      <p class="text-center mt-5 subtitle" id="projects">Recent projects</p>
       <div class="container">
         <div class="row project">
           <div class="col img-fluid mt-3 d-none d-lg-block">
@@ -54,7 +68,12 @@
                 they live in Bookmarksgrove right at the coast of the Semantics,
                 a large language ocean. A small river named Duden flows by
               </p>
-              <a href="#" class="btn btn-launch">View detailed project</a>
+              <a
+                href="https://www.shecodes.io/cohorts/shecodes-basics-79aea1ab-167d-4d63-97fb-68bef01283e5/projects/1832110?_gl=1*wipfau*_gcl_au*MjAzMjM4ODY2NS4xNzA5ODk3MjY3LjE4ODU3OTI5MzUuMTcxMDkzMzU0MS4xNzEwOTMzNTQx"
+                class="btn btn-launch"
+                target="_blank"
+                >View detailed project</a
+              >
             </div>
           </div>
         </div>
@@ -69,7 +88,12 @@
                 they live in Bookmarksgrove right at the coast of the Semantics,
                 a large language ocean. A small river named Duden flows by
               </p>
-              <a href="#" class="btn btn-launch">View detailed project</a>
+              <a
+                href="https://www.shecodes.io/cohorts/shecodes-plus-694a21d8-5f11-41b8-8b37-575d5be3333b/projects/2001629?_gl=1*sg1sq6*_gcl_au*MjAzMjM4ODY2NS4xNzA5ODk3MjY3LjE4ODU3OTI5MzUuMTcxMDkzMzU0MS4xNzEwOTMzNTQx"
+                class="btn btn-launch"
+                target="_blank"
+                >View detailed project</a
+              >
             </div>
           </div>
           <div class="col img-fluid mt-3 d-none d-lg-block">
@@ -96,7 +120,12 @@
                 they live in Bookmarksgrove right at the coast of the Semantics,
                 a large language ocean. A small river named Duden flows by
               </p>
-              <a href="#" class="btn btn-launch">View detailed project</a>
+              <a
+                href="https://www.shecodes.io/cohorts/shecodes-plus-add-on-2a7b5992-efa9-4f92-a82d-47146570dbb6/projects/2084491?_gl=1*sg1sq6*_gcl_au*MjAzMjM4ODY2NS4xNzA5ODk3MjY3LjE4ODU3OTI5MzUuMTcxMDkzMzU0MS4xNzEwOTMzNTQx"
+                class="btn btn-launch"
+                target="_blank"
+                >View detailed project</a
+              >
             </div>
           </div>
         </div>
@@ -119,7 +148,7 @@
 
       <p class="mail pt-5">mlank@vp.pl</p>
       <div class="channels">
-        <div class="p-3"><i class="fa-brands fa-facebook"></i></div>
+        <div class="p-3"><i class="fa-solid fa-envelope"></i></div>
         <div class="p-3"><i class="fa-brands fa-instagram"></i></div>
         <div class="p-3"><i class="fa-brands fa-linkedin"></i></div>
       </div>

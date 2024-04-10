@@ -38,11 +38,34 @@ img {
 
   padding-top: 100px;
 }
+nav {
+  padding: 20px 0px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--basic-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--tertiary-color);
+}
+
 .hero {
   background-color: var(--primary-color);
 
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .btn-branding {
   background: var(--secondary-color);
@@ -64,6 +87,11 @@ img {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
+}
+
+.icon {
+  padding-top: 40px;
+  font-size: 40px;
 }
 .subtitle {
   font-family: var(--font-text);
@@ -104,7 +132,7 @@ img {
   color: var(--tertiary-color);
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px 50px 20px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -120,6 +148,15 @@ img {
 .contact-data {
   color: var(--tertiary-color);
 }
+.logo {
+  max-height: 30px;
+
+  padding-top: 0px;
+}
+.background {
+  background-color: #fff961;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 66px;
@@ -148,9 +185,7 @@ img {
   .btn-branding {
     padding: 18px 5px;
   }
-  .content-container {
-    padding: 70px 20px;
-  }
+
   .content {
     text-align: center;
   }
