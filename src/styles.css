@@ -100,6 +100,12 @@ nav li.active a {
   padding: 70px 0;
   color: var(--basic-color);
 }
+.image-links img {
+  transition: all 100ms ease-in;
+}
+.image-links img:hover {
+  transform: scale(1.05);
+}
 .project {
   padding-top: 30px;
 }
