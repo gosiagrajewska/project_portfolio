@@ -161,7 +161,12 @@ nav li.active a {
 .background {
   background-color: #fff961;
 }
-
+.credits {
+  font-size: 14px;
+}
+.credits-link {
+  color: var(--tertiary-color);
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 66px;
