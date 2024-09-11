@@ -111,6 +111,15 @@ nav li.active a {
   display: block;
   margin: 0 auto;
 }
+.about-me {
+  text-align: justify;
+}
+.certificate {
+  max-width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 0;
+}
 .project {
   padding-top: 30px;
 }
