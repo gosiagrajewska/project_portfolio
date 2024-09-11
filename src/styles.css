@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #fff961;
+  /* --primary-color: #fff961;*/
+  --primary-color: #afb5df;
   --secondary-color: #2c9f9b;
   --tertiary-color: #67d5d2;
   --quarternary-color: #f9f9f9;
@@ -7,6 +8,7 @@
   --font-heading: "Playball", cursive;
   --font-text: "Poppins", sans-serif;
 }
+
 main {
   background-color: var(--quarternary-color);
   margin: 100px 0;
@@ -58,7 +60,7 @@ nav a {
 }
 nav a:hover,
 nav li.active a {
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
 }
 
 .hero {
@@ -180,7 +182,7 @@ nav li.active a {
   padding-top: 0px;
 }
 .background {
-  background-color: #fff961;
+  background-color: var(--primary-color);
 }
 .credits {
   font-size: 14px;
